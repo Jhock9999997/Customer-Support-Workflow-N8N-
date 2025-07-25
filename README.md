@@ -12,10 +12,10 @@ The workflow begins with a Gmail trigger that continuously watches the inbox for
 
 2. Text Classification
 Incoming emails are sent to a text classifier powered by an OpenAI model. Based on content analysis, emails are categorized into “Customer Support” or “Other”.
-<img width="1220" height="1076" alt="image" src="https://github.com/user-attachments/assets/a50d22ab-705c-46cc-bd4a-844df5d0eeeb" />
+<img width="1220" height="800" alt="image" src="https://github.com/user-attachments/assets/a50d22ab-705c-46cc-bd4a-844df5d0eeeb" />
 
 
-4. Conditional Logic
+3. Conditional Logic
 The flow splits depending on the classification result:
 
 A) Customer Support Emails
