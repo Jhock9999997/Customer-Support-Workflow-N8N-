@@ -3,10 +3,10 @@ This workflow listens for incoming emails in Gmail, classifies them, and intelli
 
 <img width="2230" height="690" alt="image" src="https://github.com/user-attachments/assets/3a18c125-a993-48be-b605-c58ba694305e" />
 
-Workflow Overview
+# Workflow Overview
 This workflow monitors your Gmail inbox for new emails, classifies their content, and intelligently processes customer support requests using an AI agent and contextual retrieval from a knowledge base.
 
-Step-by-Step Process
+# Step-by-Step Process
 1. Gmail Trigger
 The workflow begins with a Gmail trigger that continuously watches the inbox for newly received messages.
 
@@ -32,7 +32,7 @@ B) Non-Support Emails
 
 These are passed through a “No Operation” node, which ends the workflow without further processing.
 
-Key Components
+# Key Components
 - Gmail Trigger: Monitors incoming messages in real time.
 
 - Text Classifier (OpenAI): Categorizes emails using natural language understanding.
@@ -43,7 +43,7 @@ Key Components
 
 - Gmail Actions: Adds labels to categorize messages and sends automated replies.
 
-Example: AI-Powered Customer Support Response
+# Example: AI-Powered Customer Support Response
 The screenshot above demonstrates a successful interaction between the AI agent and an incoming customer support email. When a user submitted the inquiry “Hi what times are yall open!!??”, the workflow extracted the message using dynamic referencing from the Gmail trigger node. The AI agent processed the message and returned a professional, informative response outlining business hours, communication channels, and a friendly sign-off. This illustrates the system's ability to accurately interpret informal language and generate helpful, human-like replies using contextual awareness.
 
 <img width="3022" height="802" alt="image" src="https://github.com/user-attachments/assets/a69ebb1c-3e6f-47d5-aa93-9910bc45dae3" />
